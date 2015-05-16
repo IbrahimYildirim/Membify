@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F4378011B0779B4004E29F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4378001B0779B4004E29F3 /* AppDelegate.swift */; };
 		0F4378041B0779B4004E29F3 /* Membify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F4378021B0779B4004E29F3 /* Membify.xcdatamodeld */; };
-		0F4378061B0779B4004E29F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4378051B0779B4004E29F3 /* ViewController.swift */; };
-		0F4378091B0779B4004E29F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4378071B0779B4004E29F3 /* Main.storyboard */; };
 		0F43780B1B0779B4004E29F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F43780A1B0779B4004E29F3 /* Images.xcassets */; };
-		0F43780E1B0779B4004E29F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F43780C1B0779B4004E29F3 /* LaunchScreen.xib */; };
 		0F43781A1B0779B4004E29F3 /* MembifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4378191B0779B4004E29F3 /* MembifyTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +28,7 @@
 		0F4377FF1B0779B4004E29F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F4378001B0779B4004E29F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F4378031B0779B4004E29F3 /* Membify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Membify.xcdatamodel; sourceTree = "<group>"; };
-		0F4378051B0779B4004E29F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0F4378081B0779B4004E29F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F43780A1B0779B4004E29F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0F43780D1B0779B4004E29F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0F4378131B0779B4004E29F3 /* MembifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MembifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4378181B0779B4004E29F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F4378191B0779B4004E29F3 /* MembifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembifyTests.swift; sourceTree = "<group>"; };
@@ -80,11 +74,11 @@
 			isa = PBXGroup;
 			children = (
 				0F4378001B0779B4004E29F3 /* AppDelegate.swift */,
-				0F4378051B0779B4004E29F3 /* ViewController.swift */,
-				0F4378071B0779B4004E29F3 /* Main.storyboard */,
-				0F43780A1B0779B4004E29F3 /* Images.xcassets */,
-				0F43780C1B0779B4004E29F3 /* LaunchScreen.xib */,
-				0F4378021B0779B4004E29F3 /* Membify.xcdatamodeld */,
+				0F4378261B077F69004E29F3 /* Components */,
+				0F4378271B077F8C004E29F3 /* Extensions */,
+				0F4378251B077F5C004E29F3 /* Providers */,
+				0F4378241B077F43004E29F3 /* ViewControllers */,
+				0F4378231B077F05004E29F3 /* Resources */,
 				0F4377FE1B0779B4004E29F3 /* Supporting Files */,
 			);
 			path = Membify;
@@ -113,6 +107,43 @@
 				0F4378181B0779B4004E29F3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F4378231B077F05004E29F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F43780A1B0779B4004E29F3 /* Images.xcassets */,
+				0F4378021B0779B4004E29F3 /* Membify.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0F4378241B077F43004E29F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0F4378251B077F5C004E29F3 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		0F4378261B077F69004E29F3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0F4378271B077F8C004E29F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F4378091B0779B4004E29F3 /* Main.storyboard in Resources */,
-				0F43780E1B0779B4004E29F3 /* LaunchScreen.xib in Resources */,
 				0F43780B1B0779B4004E29F3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F4378061B0779B4004E29F3 /* ViewController.swift in Sources */,
 				0F4378011B0779B4004E29F3 /* AppDelegate.swift in Sources */,
 				0F4378041B0779B4004E29F3 /* Membify.xcdatamodeld in Sources */,
 			);
@@ -238,25 +266,6 @@
 			targetProxy = 0F4378141B0779B4004E29F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0F4378071B0779B4004E29F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F4378081B0779B4004E29F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0F43780C1B0779B4004E29F3 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F43780D1B0779B4004E29F3 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0F43781B1B0779B4004E29F3 /* Debug */ = {
@@ -344,7 +353,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Membify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,7 +365,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Membify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
