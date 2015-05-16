@@ -11,6 +11,9 @@
 		0F4378041B0779B4004E29F3 /* Membify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F4378021B0779B4004E29F3 /* Membify.xcdatamodeld */; };
 		0F43780B1B0779B4004E29F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F43780A1B0779B4004E29F3 /* Images.xcassets */; };
 		0F43781A1B0779B4004E29F3 /* MembifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4378191B0779B4004E29F3 /* MembifyTests.swift */; };
+		0F43782B1B0780A2004E29F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4378291B0780A2004E29F3 /* LoginViewController.swift */; };
+		0F43782C1B0780A2004E29F3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F43782A1B0780A2004E29F3 /* LoginViewController.xib */; };
+		0F43782E1B0785F3004E29F3 /* FV_Almelo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F43782D1B07830F004E29F3 /* FV_Almelo.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,9 @@
 		0F4378131B0779B4004E29F3 /* MembifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MembifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4378181B0779B4004E29F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F4378191B0779B4004E29F3 /* MembifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembifyTests.swift; sourceTree = "<group>"; };
+		0F4378291B0780A2004E29F3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0F43782A1B0780A2004E29F3 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0F43782D1B07830F004E29F3 /* FV_Almelo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FV_Almelo.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		0F4378231B077F05004E29F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F43782D1B07830F004E29F3 /* FV_Almelo.ttf */,
 				0F43780A1B0779B4004E29F3 /* Images.xcassets */,
 				0F4378021B0779B4004E29F3 /* Membify.xcdatamodeld */,
 			);
@@ -121,6 +128,7 @@
 		0F4378241B077F43004E29F3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0F4378281B078070004E29F3 /* LoginFlow */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -144,6 +152,15 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F4378281B078070004E29F3 /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0F4378291B0780A2004E29F3 /* LoginViewController.swift */,
+				0F43782A1B0780A2004E29F3 /* LoginViewController.xib */,
+			);
+			path = LoginFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F43782E1B0785F3004E29F3 /* FV_Almelo.ttf in Resources */,
+				0F43782C1B0780A2004E29F3 /* LoginViewController.xib in Resources */,
 				0F43780B1B0779B4004E29F3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F43782B1B0780A2004E29F3 /* LoginViewController.swift in Sources */,
 				0F4378011B0779B4004E29F3 /* AppDelegate.swift in Sources */,
 				0F4378041B0779B4004E29F3 /* Membify.xcdatamodeld in Sources */,
 			);
@@ -426,6 +446,7 @@
 				0F43781F1B0779B4004E29F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F4378201B0779B4004E29F3 /* Build configuration list for PBXNativeTarget "MembifyTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +455,7 @@
 				0F4378221B0779B4004E29F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
